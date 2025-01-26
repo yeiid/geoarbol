@@ -1,0 +1,75 @@
+gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.env/
+.venv/
+
+# Directorios de distribución e instalación
+dist/
+build/
+*.egg-info/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de registro
+*.log
+
+# Archivos de base de datos local
+*.sqlite3
+
+# Archivos de configuración local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de pruebas de unidad / cobertura
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Traducciones
+*.mo
+*.pot
+
+# Archivos de Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos de Flask
+instance/
+.webassets-cache
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de editores
+*~
+*.swp
+*.swo
